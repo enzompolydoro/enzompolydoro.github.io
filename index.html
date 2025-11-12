@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Enzo Machado Polydoro</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Lobster&family=Montserrat&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/estilo.css" />
+</head>
+<body id="pagina">
+
+  <!-- Menu lateral -->
+  <div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#dados-pessoais">Dados Pessoais</a>
+  <a href="#formacao">Formação</a>
+  <a href="#conhecimentos">Conhecimentos</a>
+  <a href="#habilidades">Habilidades</a>
+  <a href="#qualificações">Qualificações</a>
+  <a href="#idiomas">Idiomas</a>
+</div>
+
+  <!-- Conteúdo principal -->
+  <div id="main">
+    <button class="openbtn" onclick="openNav()">&#9776; Abrir Menu</button>
+
+    <header id="cabecalho">
+      <h1>Currículo Enzo Machado Polydoro</h1>
+    </header>
+
+    <div class="perfil">
+    <img src="imagem/imgEnzo.jpg" alt="Foto Enzo Machado Polydoro" class="foto-perfil">
+    <p>Estudante do IFPR campus Curitiba,no último ano do curso em 2025 de progamação de jogos com experiência em design e produção de videos e desenhos com powerpoint.</p>
+  </div>
+
+    <section class="secao">
+      <article id="curriculo-conteudo">
+        <h2 id="dados-pessoais">Dados Pessoais</h2>
+        <p><strong>Nome:</strong> Enzo Machado Polydoro</p>
+        <p><strong>Email:</strong> enzompolydoro@gmail.com</p>
+        <p><strong>Celular:</strong> (41)9888-0680</p>
+
+        <h2 id="formacao">Formação</h2>
+        <ul>
+          <li> Instituto Federal do Paraná-IFPR Campos Curitiba</li>
+          <li> Ensino médio/Curso Técnico em Jogos digitais</li>
+		  <li> Fevereiro/2022 - em andamento</li>
+		</ul>
+
+        <h2 id="conhecimentos">Conhecimentos</h2>
+          <ul>
+          <li> Mesa Digital Com Recurso Do Software: </li>
+		  <li> Fall Guys</li>
+          <li> Among Us</li>
+          <li> Smiling Critters Cabeça</li>
+        </ul>
+
+       <h2 id="habilidades">Habilidades</h2>
+        <ul>
+          <li> Powerpoint</li>
+          <li> Paint</li>
+          <li> Filmora</li>
+        </ul>
+		
+		<h2 id="qualificações">Qualificações</h2>
+          <ul>
+          <li> Organizado</li>
+		  <li> Pontual</li>
+          <li> Caprichoso</li>
+          <li> Curioso</li>
+		  <li> Bem Educado</li>
+		  <li> Comprometido</li>
+		  <li> Responsável</li>
+        </ul>
+
+        <h2 id="idiomas">Idiomas</h2>
+        <ul>
+          
+          <li>Inglês – Avançado</li>
+        </ul>
+      </article>
+    </section>
+  </div>
+<div class="carrossel-container">
+<h2>Meu Portfólio</h2>
+<div class="carrossel">
+<button class="carrossel-btn" onclick="mudarImagens(-1)">&#10094;</button>
+<div class="carrossel-imagens" id="carrossel-imagens">
+<!-- Imagens serão inseridas via JavaScript -->
+</div>
+<button class="carrossel-btn" onclick="mudarImagens(1)">&#10095;</button>
+</div>
+</div>
+
+  <footer id="rodape">
+    <p>&copy; 2025 Enzo Machado Polydoro - Todos os direitos reservados.</p>
+    <div class="botoes">
+      <button onclick="mudarFonte('Roboto')">Roboto</button>
+      <button onclick="mudarFonte('Lobster')">Lobster</button>
+      <button onclick="mudarFonte('Montserrat')">Montserrat</button>
+    </div>
+  </footer>
+
+  <script src="javascript/javascript.js"></script>
+</body>
+</html>
